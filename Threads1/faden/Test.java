@@ -12,10 +12,10 @@ public class Test
         Thread three = new Thread(mf);
         Thread four = new Thread(mf);
         
-        one.setName("Fred");
-        two.setName("Lisa");
-        three.setName("Manfred");
-        four.setName("Hilde");
+        one.setName("A");
+        two.setName("B");
+        three.setName("C"); 
+        four.setName("D");
         
         one.start();
         two.start();
